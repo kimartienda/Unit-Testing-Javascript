@@ -1,0 +1,20 @@
+{
+  "name": "simple_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "mocha --recursive",
+    "specifictest": "mocha -g"
+  },
+  "author": "Kimberly Carmel Artienda",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19",
+    "express": "^4.17.1"
+  }
+}
